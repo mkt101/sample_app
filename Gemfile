@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.4'
+gem 'rails', '3.0.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,13 +8,13 @@ gem 'rails', '3.0.4'
 gem 'sqlite3'
 
 group :development do
-	gem 'rspec-rails', '2.0.1'
+	gem 'rspec-rails'
 	gem 'annotate-models'
 end
 
 group :test do
-	gem 'rspec', '2.0.1'
-	gem 'webrat', '0.7.2'
+	gem 'rspec'
+	gem 'webrat'
 	gem 'spork', '~> 0.9.0.rc'
 	gem 'factory_girl_rails'
 	gem 'autotest'
